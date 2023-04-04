@@ -12,7 +12,7 @@ function Navbar() {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">About me</a>
+          <a class="nav-link" aria-current="page" href="/">About me</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/">My Skills</a>

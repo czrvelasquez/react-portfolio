@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import "./components/Aboutme/Aboutme.scss";
+@import "./components/ContactMe/ContactMe.scss";
+@import "./components/Navbar/Navbar.scss";
+@import "./components/Footer/Footer.scss";
+@import "./components/Skills/Skills.scss";
+@import "./components/MyWork/MyWork.scss";
+
+body{
+    font-family: 'Roboto', sans-serif; 
+}

@@ -1,10 +1,13 @@
 import React from 'react'
 
-function AboutMe() {
-  return <> 
-  
+
+const AboutMe =() => {
+
+  return <div className='aboutme-container'> 
     <div className="card-container">
-    <h1>About me</h1>
+      <div className="card-header">
+        <h1>About me</h1>
+      </div>
         <div class="card mb-3">
   <div class="row g-0">
     <div class="col-md-4">
@@ -20,7 +23,8 @@ function AboutMe() {
   </div>
 </div>
     </div>
-    </>  
+    </div>  
 }
+
 
 export default AboutMe

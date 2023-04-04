@@ -1,0 +1,22 @@
+nav{
+    height: 100px;
+    .navbar-brand{
+        color: #424874;
+        font-weight: 800;
+        font-size: 25px;
+        padding: 10px 20px 10px;
+    }
+    .navbar-nav{
+        li{
+            padding: 10px 20px 10px;    
+            a{
+                font-size: 1.125rem;
+                &:hover{
+                    font-size: 1.225rem;
+                    border-bottom: 3px solid #424874;
+                }
+            }
+        } 
+        
+    }
+}
