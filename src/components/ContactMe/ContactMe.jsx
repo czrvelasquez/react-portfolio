@@ -8,7 +8,7 @@ function ContactMe() {
             <h3>Contact me</h3>
             <input type="text"  placeholder='leave your name'/>
             <input type="email" name="" id="" placeholder='email' />
-            <input type="text" name="" id="" placeholder='send me a message' />
+            <input type="text-area" name="" className="message" placeholder='send me a message' />
         </form>
         <div className="dm-container">
           <h5>Send me a Direct message</h5>

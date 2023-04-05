@@ -1,0 +1,54 @@
+.work-container{
+    padding-left: 8rem;
+    padding-top: 2rem;
+    a{
+        text-decoration: none;
+    }
+
+    .project-card{
+        padding-bottom: 3rem;
+        background-color: aqua;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 25px;
+        margin-left: 3rem;
+        height: 275px;
+        margin-top: 2rem;
+        &:hover{
+            height: 400px;
+            img{
+                width: 300px;
+                height: 300px;
+                margin-left: -1.25rem;
+            }
+            p{
+                display: block;
+            }
+            h5{
+                padding-top: .5rem;
+            }
+            
+        }
+        p{
+            display: none;
+        }
+        img{
+            padding-left: 2rem;
+            padding-top: 1rem;
+            padding-right: 1rem;
+            border-radius: 25px;
+
+        }
+        h5{
+            padding-top: 1rem;
+            padding-left: 3rem;
+            color: black;
+        }
+        p{
+            width: 300px;
+            padding-left: 2.5rem;
+            margin-left: -1.5rem;
+        }
+    }
+}

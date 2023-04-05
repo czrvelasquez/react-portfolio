@@ -1,0 +1,40 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 10%;
+    height: 500px;
+    border-radius: 25px; 
+    form{
+        display: flex;
+        flex-direction: column;
+        h3{
+            padding-bottom: 2rem;
+        }
+        input{
+            margin-bottom: 1rem;
+        }
+        .message{
+            height: 150px;
+        }
+    }
+    .dm-container{
+        h5{
+            padding:1rem 3rem 1rem;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            li{
+                padding: 1rem 2rem 1rem;
+            }
+        }
+        width: 400px;
+    }
+}

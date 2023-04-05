@@ -1,0 +1,33 @@
+.skills-container{
+    margin-left: 8rem;
+    margin-top: 4rem;
+    .skill{
+        margin: 4rem 0 4rem;
+        font-size: 3rem;
+
+        i{
+            margin-left: 1rem;
+        }
+        #aws-icon{
+            padding-left: 2rem;
+        }
+        #agile-icon{
+            padding-left: 1.5rem;
+        }
+        #github-icon{
+            margin-left: 1rem;
+        }
+        #angular-icon{
+            margin-left: .75rem;
+        }
+        #vuejs-icon{
+            margin-left: 1rem;
+        }
+        h6{
+            padding-top: 1.5rem;
+            font-weight: bolder;
+            color: #424874;
+        }
+
+    }
+}
